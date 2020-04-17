@@ -34,7 +34,8 @@ Ignored if HostFile is not specified.
 Bypasses duplicate check and outputs information on all discovered adapters.
 .NOTES
 Author: Eric Siron
-Version 1.2, December 27, 2018
+Version 1.2, December 27, 2018 
+version 2.0, Update 2019.10
 Released under MIT license
 .INPUTS
 String[]
@@ -67,6 +68,7 @@ PS C:\> Get-VMMacConflict -ComputerName svhv1, svhv2, svhv3, svhv4 -All | Out-Gr
 Retrieves information about all active adapters from the specified hosts and displays a grid view.
 .LINK
 https://ejsiron.github.io/Posher-V/Get-VMMacConflict
+https://github.com/AlbertDongjie/Hyper-V/blob/master/Get-VMMacConflict.ps1
 #>
 #requires -Version 4
 [CmdletBinding()]
