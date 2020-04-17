@@ -13,7 +13,7 @@ Released license
 .INPUTS
 String[]
 .LINK
-https://ejsiron.github.io/Posher-V/Get-VMMacConflict
+https://github.com/AlbertDongjie/Hyper-V/blob/master/Get-VMMac.ps1
 #>
 
 
