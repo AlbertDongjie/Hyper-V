@@ -16,7 +16,6 @@ String[]
 https://github.com/AlbertDongjie/Hyper-V/blob/master/Get-VMMac.ps1
 #>
 
-
 <#
 .EXAMPLE
 local Hyper-V host, list the MAC addresses of all virtual machines
@@ -45,8 +44,6 @@ foreach ( $HypervServer in $HypervServers ) {
 }
 
 # OUTPORT RESULT
-
-
 
 VMName                                                                                          MacAddress                                                                                    
 ------                                                                                          ----------                                                                                    
